@@ -24,15 +24,11 @@ layers:
   - '&gqt RALT V'
   - C
   - D
-  - ''
-  - ''
   - H
   - ','
   - '&gqt RALT DOT'
   - lower
   - SPACE
-  - ''
-  - ''
   - {t: LSHIFT, h: sticky}
   - raise
   lower:
@@ -59,15 +55,11 @@ layers:
   - RALT
   - ''
   - ''
-  - ''
-  - ''
   - {t: BSPC, h: sticky}
   - RET
   - TAB
   - {t: lower, type: held}
   - SPACE
-  - ''
-  - ''
   - {t: LSHIFT, h: sticky}
   - raise
   raise:
@@ -94,16 +86,12 @@ layers:
   - {t: +, h: RALT}
   - '='
   - '5'
-  - ''
-  - ''
   - '6'
   - ^
   - {t: '*', h: RALT}
   - '~'
   - lower
   - SPACE
-  - ''
-  - ''
   - {t: LSHIFT, h: sticky, type: held}
   - raise
   adjust:
@@ -130,14 +118,10 @@ layers:
   - RALT
   - VOL DN
   - BRI DN
-  - ''
-  - ''
   - F1
   - F2
   - F3
   - {t: lower, type: held}
   - SPACE
-  - ''
-  - ''
   - {t: LSHIFT, h: sticky}
   - {t: raise, type: held}
