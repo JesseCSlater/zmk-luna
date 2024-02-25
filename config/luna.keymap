@@ -35,17 +35,18 @@
 / {
     #include "combos.dtsi"
 
-    behaviors {
-        hm: homerow_mod {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HOMEROW_MODS";
-            #binding-cells = <2>;
-            tapping-term-ms = <250>;
-            quick_tap_ms = <250>;
-            flavor = "tap-preferred";
-            bindings = <&kp>, <&kp>;
+        behaviors {
+            gqt: global-quick-tap {
+                compatible = "zmk,behavior-hold-tap";
+                label = "GLOBAL_QUICK_TAP";
+                #binding-cells = <2>;
+                flavor = "tap-preferred";
+                tapping-term-ms = <200>;
+                quick-tap-ms = <300>;
+                global-quick-tap;
+                bindings = <&kp>, <&kp>;
+            };
         };
-    };
 
         conditional_layers {
             compatible = "zmk,conditional-layers";
