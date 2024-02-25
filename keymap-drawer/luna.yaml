@@ -11,22 +11,22 @@ layers:
   - U
   - Y
   - ''''
-  - '&gqt LSHIFT A'
-  - '&gqt LALT R'
-  - '&gqt LCTRL S'
-  - '&gqt LGUI T'
+  - {t: A, h: LSHIFT}
+  - {t: R, h: LALT}
+  - {t: S, h: LCTRL}
+  - {t: T, h: LGUI}
   - G
   - M
-  - '&gqt RGUI N'
-  - '&gqt RCTRL E'
-  - '&gqt LALT I'
-  - '&gqt RSHIFT O'
-  - '&gqt RALT V'
+  - {t: N, h: RGUI}
+  - {t: E, h: RCTRL}
+  - {t: I, h: LALT}
+  - {t: O, h: RSHIFT}
+  - {t: V, h: RALT}
   - C
   - D
   - H
   - ','
-  - '&gqt RALT DOT'
+  - {t: ., h: RALT}
   - lower
   - SPACE
   - {t: LSHIFT, h: sticky}
