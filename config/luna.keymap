@@ -80,7 +80,7 @@
                         bindings = <
 &kp GRAVE &kp LBRC   &kp LBKT      &kp  LPAR      &kp PIPE        &kp AMPS   &kp RPAR         &kp RBKT       &kp RBRC         &kp TILDE 
 &mt LSHIFT N1 &mt LALT N2 &mt LCTRL N3   &mt LGUI N4    &kp BSLH         &kp FSLH &mt RGUI N7 &mt RCTRL N8 &mt LALT N9 &mt RSHIFT N0
-&mt RALT PLUS &kp EQUAL       &kp N5         &kp N6      &kp CARET    &mt RALT STAR   &kp TILDE
+&mt RALT PLUS &kp EQUAL       &kp N5         &kp N6      &kp CARET    &mt RALT STAR 
                                &mo LWR &kp SPACE  &sk LSHIFT &mo RSE
                         >;
                 };
