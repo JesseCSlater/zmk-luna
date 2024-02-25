@@ -63,8 +63,8 @@
             bindings = <
  &key_repeat      &kp W      &kp F       &kp P        &kp B         &kp K         &kp L       &kp U        &kp Y      &kp APOS
  &gqt LSHIFT A &gqt LALT R &gqt LCTRL S &gqt LGUI T   &kp G         &kp M         &gqt RGUI N  &gqt RCTRL E  &gqt LALT I &gqt RSHIFT O
-       &gqt RALT V &kp C       &kp D        &none         &none         &kp H       &kp COMMA    &gqt RALT DOT  
-                               &mo LWR &kp SPACE &none     &none &sk LSHIFT &mo RSE            
+       &gqt RALT V &kp C       &kp D              &kp H       &kp COMMA    &gqt RALT DOT  
+                               &mo LWR &kp SPACE  &sk LSHIFT &mo RSE            
 >;
         };
 
@@ -72,24 +72,24 @@
                         bindings = <
    &bt BT_SEL 0   &bt BT_SEL 1       &bt BT_SEL 2   &bt BT_SEL 3      &out OUT_TOG       &kp C_MENU     &kp HOME       &kp PG_DN &kp PG_UP      &kp END     
 &kp LSHIFT &kp LALT &kp LCTRL &kp LGUI  &none         &kp DEL     &kp LEFT &kp DOWN  &kp UP &kp RIGHT
- &kp RALT &none       &none       &none         &none     &sk BSPC        &kp RET        &kp TAB
-                               &mo LWR &kp SPACE &none     &none &sk LSHIFT &mo RSE
+ &kp RALT &none       &none            &sk BSPC        &kp RET        &kp TAB
+                               &mo LWR &kp SPACE  &sk LSHIFT &mo RSE
                         >;
                 };
                 raise_layer {
                         bindings = <
 &kp GRAVE &kp LBRC   &kp LBKT      &kp  LPAR      &kp PIPE        &kp AMPS   &kp RPAR         &kp RBKT       &kp RBRC         &kp TILDE 
 &mt LSHIFT N1 &mt LALT N2 &mt LCTRL N3   &mt LGUI N4    &kp BSLH         &kp FSLH &mt RGUI N7 &mt RCTRL N8 &mt LALT N9 &mt RSHIFT N0
-&mt RALT PLUS &kp EQUAL       &kp N5        &none         &none &kp N6      &kp CARET    &mt RALT STAR   &kp TILDE
-                               &mo LWR &kp SPACE &none     &none &sk LSHIFT &mo RSE
+&mt RALT PLUS &kp EQUAL       &kp N5         &kp N6      &kp CARET    &mt RALT STAR   &kp TILDE
+                               &mo LWR &kp SPACE  &sk LSHIFT &mo RSE
                         >;
                 };
                 adjust_layer {
                         bindings = <
 &none  &kp C_PP   &kp C_VOL_UP    &kp C_BRI_UP    &bt BT_CLR         &kp F12         &kp F7   &kp F8   &kp F9      &kp F10   
 &kp LSHIFT     &kp LALT        &kp LCTRL       &kp LGUI        &bootloader     &bootloader   &kp F4   &kp F5   &kp F6      &kp F11 
- &kp RALT  &kp C_VOL_DN    &kp C_BRI_DN    &none    &none    &kp F1   &kp F2  &kp F3    
-                               &mo LWR &kp SPACE &none     &none &sk LSHIFT &mo RSE
+ &kp RALT  &kp C_VOL_DN    &kp C_BRI_DN       &kp F1   &kp F2  &kp F3    
+                               &mo LWR &kp SPACE  &sk LSHIFT &mo RSE
                         >;
                 };
         };
