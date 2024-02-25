@@ -89,11 +89,10 @@ layers:
   - '6'
   - ^
   - {t: '*', h: RALT}
-  - '~'
   - lower
   - SPACE
-  - {t: LSHIFT, h: sticky, type: held}
-  - raise
+  - {t: LSHIFT, h: sticky}
+  - {t: raise, type: held}
   adjust:
   - ''
   - PP
