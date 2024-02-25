@@ -55,7 +55,7 @@ layers:
   - RALT
   - ''
   - ''
-  - {t: BSPC, h: sticky}
+  - BSPC
   - RET
   - TAB
   - {t: lower, type: held}
