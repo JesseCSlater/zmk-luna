@@ -9,4 +9,69 @@
 combos {
   compatible = "zmk,combos";
 
+           combo_Z {
+              timeout-ms = <20>;
+              key-positions = <1 2>;
+              bindings = <&kp Z>;
+           };
+
+           combo_Q {
+              timeout-ms = <20>;
+              key-positions = <2 3>;
+              bindings = <&kp Q>;
+           };
+                      
+           combo_X {
+              timeout-ms = <20>;
+              key-positions = <11 12>;
+              bindings = <&kp X>;
+           };
+           
+           combo_J {
+              timeout-ms = <20>;
+              key-positions = <12 13>;
+              bindings = <&kp J>;
+           };
+           
+           combo_escape {
+              timeout-ms = <20>;
+              key-positions = <21 22>;
+              bindings = <&kp ESC>;
+           };
+
+           combo_colon {
+              timeout-ms = <20>;
+              key-positions = <6 7>;
+              bindings = <&kp COLON>;
+           };
+           
+            combo_semicolon {
+              timeout-ms = <20>;
+              key-positions = <7 8>;
+              bindings = <&kp SEMI>;
+           };
+           
+           combo_minus {
+              timeout-ms = <20>;
+              key-positions = <16 17>;
+              bindings = <&kp MINUS>;
+           };
+
+           combo_qmark {
+              timeout-ms = <20>;
+              key-positions = <17 18>;
+              bindings = <&kp QMARK>;
+           };
+
+           combo_underscore {
+              timeout-ms = <20>;
+              key-positions = <23 24>;
+              bindings = <&kp UNDER>;
+           };
+           
+           combo_exlamation {
+              timeout-ms = <20>;
+              key-positions = <24 25>;
+              bindings = <&kp EXCL>;
+           };
 };
