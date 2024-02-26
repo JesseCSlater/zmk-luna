@@ -124,3 +124,26 @@ layers:
   - SPACE
   - {t: LSHIFT, h: sticky}
   - {t: raise, type: held}
+combos:
+- p: [1, 2]
+  k: Z
+- p: [2, 3]
+  k: Q
+- p: [11, 12]
+  k: X
+- p: [12, 13]
+  k: J
+- p: [21, 22]
+  k: ESC
+- p: [6, 7]
+  k: ':'
+- p: [7, 8]
+  k: ;
+- p: [16, 17]
+  k: '-'
+- p: [17, 18]
+  k: '?'
+- p: [23, 24]
+  k: _
+- p: [24, 25]
+  k: '!'
